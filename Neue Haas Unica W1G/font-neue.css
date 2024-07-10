@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Neue Haas Unica W1G";
+    src: url('Neue Haas Unica W1G.eot');
+    src: url('Neue Haas Unica W1G.eot?#iefix') format('embedded-opentype'),
+         url('Neue Haas Unica W1G.woff2') format('woff2'),
+         url('Neue Haas Unica W1G.woff') format('woff'),
+         url('Neue Haas Unica W1G.ttf')  format('truetype'),
+         url('Neue Haas Unica W1G.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
