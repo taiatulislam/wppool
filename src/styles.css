@@ -1,0 +1,128 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 200px!important;
+    display: flex;
+    margin-bottom: 40px!important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+          @layer utilities {
+            .content-auto {
+              content-visibility: auto;
+            }
+          }
+
+          body{
+              font-family: 'Nantes';
+          }
+
+          .neue-hass{
+              font-family: "Neue Haas Unica W1G";
+          }
+
+          .messinaSans{
+              font-family: "Messina Sans Book";
+          }
+
+          a:link:hover {
+              color: #115CD9;
+          }
+
+          #customers {
+              border-collapse: collapse;
+              width: 100%;
+          }
+
+          #customers th {
+             padding: 12px 10px;
+              text-align: center;
+          }
+
+          #customers td {
+              padding: 7px 55PX;
+              text-align: center;
+          }
+
+          #customers tr:nth-child(2n){background-color: #f2f2f2;}
+
+          #customers td:first-child {
+              text-align: left;
+          }
+
+          #customers th:first-child {
+              text-align: left;
+          }
+
+          #customers td:first-child {
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              text-align: left;
+          }
+          #customers td:last-child {
+              border-right-style: solid;
+              border-bottom-right-radius: 10px;
+              border-top-right-radius: 10px;
+          }
+  
+          #customers tr:hover:nth-child(2n){background-color: #ddd;}
+          #customers tr:hover:nth-child(n+3){background-color: #ddd;}
+  
+          /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #E5F1F3;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2042B6;
+    border-radius: 20px;
+  }
+  
+  .dropdown {
+    /* position: relative; */
+    display: inline-block;
+    z-index: 20;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+  }
+  
+  .dropdown button:hover {color: #115CD9;}
+  .dropdown button {display: block; margin: 10px 0px;}
+  
+  .show {display: block;}
